@@ -1,0 +1,23 @@
+{
+   "lambdatest_auth": {
+      "username": "deekshasalugu",
+      "access_key": "tFU6g0crbGJ85WKCGu4WVS6rrPlX9wQtc5SoJxmk40oiSVcAcU"
+   },
+   "browsers": [
+      {
+         "browser": "Chrome",
+         "platform": "MacOS Big sur",
+         "versions": ["100.0"]
+      }
+   ],
+   "run_settings": {
+      "cypress_config_file": "cypress.json",
+      "build_name": "build-name",
+      "parallels": 1,
+      "specs": "cypress/integration/socialNetworks/Facebook.feature"
+   },
+   "tunnel_settings": {
+      "tunnel": false,
+      "tunnelName": null
+   }
+}
